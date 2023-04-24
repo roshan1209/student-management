@@ -1,0 +1,5 @@
+button:hover{
+  background-color: darkblue;
+  color: white;
+  transition: 0.8s;
+}

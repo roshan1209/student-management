@@ -1,0 +1,43 @@
+{
+  "student":[
+        {
+            "name" : "Roshan",
+            "rollno" : "20204",
+            "class" : "CS",
+            "dob" : "12-09-2002",
+            "mobile" : "8056543774",
+            "fname" : "Bilavendran",
+            "mname" : "Amutha",
+            "foccupation" : "Business",
+            "income" : "100000",
+            "religion" : "christian",
+            "address" : "madurai"
+        },
+        {
+            "name" : "Aadhi",
+            "rollno" : "20240",
+            "class" : "CS",
+            "dob" : "12-09-2002",
+            "mobile" : "8056543774",
+            "fname" : "Bilavendran",
+            "mname" : "Amutha",
+            "foccupation" : "Business",
+            "income" : "100000",
+            "religion" : "christian",
+            "address" : "madurai"
+        },
+        {
+            "name" : "Ramji",
+            "rollno" : "20216",
+            "class" : "CS",
+            "dob" : "12-09-2002",
+            "mobile" : "8056543774",
+            "fname" : "Bilavendran",
+            "mname" : "Amutha",
+            "foccupation" : "Business",
+            "income" : "100000",
+            "religion" : "christian",
+            "address" : "madurai"
+        }
+    ]
+}

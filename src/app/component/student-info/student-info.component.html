@@ -1,0 +1,70 @@
+<div class="container" >
+    <div class="bg-danger p-3 mt-5 rounded">
+        <div class="row d-flex flex-row justify-content-around mt-2">
+            <img src="assets/student.png" alt="" width="50px" height="50px">
+            <div class="form-inline my-2" >
+                <form [formGroup]="infoform" (ngSubmit)="isearch()">
+                    <input class="form-control mr-lg-2 mr-sm-2 mr-md-2" type="search" placeholder="Enter the rollno" aria-label="Enter the student name" formControlName="sinfo">
+                    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   
+<div class="bg-secondary p-3 mt-5 rounded">
+    <div class="row ml-auto mt-2">
+        <div class="bg-warning p-1 text-center rounded">
+            <p class="m-2">STUDENT-INFORMATION</p>
+        </div>
+       
+    </div>
+    <table class="table table-dark text-warning mt-3">
+        <tr >
+            <th scope="col">Name</th>
+            <th scope="col">Roll no</th>
+            <th scope="col">Class</th>
+            <th scope="col">Date of birth</th>
+            <th scope="col">Blood Group</th>
+            <th scope="col">Address</th>
+            <th scope="col">Phone number</th>
+        </tr>
+        <tr *ngFor="let items of displayData">
+            <td>{{items.name}}</td>
+            <td>{{items.rollno}}</td>
+            <td>{{items.class}}</td>
+            <td>{{items.dob}}</td>
+            <td>{{items.bg}}</td>
+            <td>{{items.addr}}</td>
+            <td>{{items.pno}}</td>
+        </tr>
+        
+    </table>
+</div>
+
+<div class="bg-secondary p-3 mt-5 mb-2 rounded">
+    <div class="row ml-auto mt-2">
+        <div class="bg-warning p-1 text-center rounded">
+            <p class="m-2">PERSONAL-INFORMATION</p>
+        </div>
+       
+    </div>
+    <table class="table table-dark text-warning mt-3">
+        <tr>
+            <th scope="col">Father's name</th>
+            <th scope="col">Mother's name</th>
+            <th scope="col">Father's occupation</th>
+            <th scope="col">Annual income</th>
+            <th scope="col">Relegion</th>
+        </tr>
+        <tr *ngFor="let items of displayData">
+            <td>{{items.fn}}</td>
+            <td>{{items.mn}}</td>
+            <td>{{items.fo}}</td>
+            <td>{{items.an}}</td>
+            <td>{{items.rel}}</td>
+        </tr>
+    </table>
+</div>
+    
+</div>
+
